@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/11e41873bf.js" crossorigin="anonymous"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- tailwind and daisy ui cdn here VGhpcyBjb2RlIHdyaXR0ZW4gYnkgQWJoaWppdCBEYXMgKGNoYW5jaGFsKQ== -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+</head>
+
+<body style="font-family:Manrope;">
+    <!-- header section start here -->
+    <header class="container mx-auto">
+        <!-- nav section start here -->
+        <nav class="mt-6 lg:mt-14 lg:mb-12 ">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-2xl font-bold lg:text-4xl lg:font-extrabold">Hockey<span
+                            class="text-red-500">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-red-500 font-bold ">Home</a></li>
+                        <li><a class="font-bold">About</a></li>
+                        <li><a class="font-bold">Pages</a></li>
+                        <li><a class="font-bold">Blog</a></li>
+                        <li><a class="font-bold">Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end ">
+                    <div class="lg:flex justify-center items-center mr-5 hidden ">
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                    </div>
+                    <a class="btn  lg:text-2xl lg:px-6 lg:py-2 text-white bg-red-500">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <!-- nav section end here  -->
+        <section class="mb-24 mt-3 ">
+            <!-- banner section start here  VGhpcyBjb2RlIHdyaXR0ZW4gYnkgQWJoaWppdCBEYXMgKGNoYW5jaGFsKQ==-->
+            <div class="container mx-auto ">
+                <div class="carousel w-full h-40 lg:h-full">
+                    <div id="slide1"
+                        class="carousel-item relative w-full bg-[url(images/1.png)] lg:h-[80vh] lg:flex items-center justify-center bg-contain rounded-lg bg-no-repeat lg:bg-cover object-cover ">
+
+
+                        <div class="absolute lg:bottom-2 transform -translate-y-1/2 lg:left-12 lg:right-5 top-28">
+
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                        <div
+                            class="absolute lg:bottom-2 transform -translate-y-1/2 lg:left-12 lg:right-5 hidden lg:block">
+
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-black p-8 rounded-lg lg:w-[550px] absolute lg:right-60 lg:bottom-20 hidden lg:block ">
+                        <h1 class="text-white lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h1>
+                        <p class="text-zinc-400 lg:w-2/3">Discover hockey's true stars! Meet the heroes of the field,
+                            showcasing skill, passion, and determination in every thrilling match.</p>
+                    </div>
+                    <!-- slide 2 here -->
+                    <div id="slide2"
+                        class="carousel-item relative w-full bg-[url(./images/2.png)] h-[80vh] flex items-center justify-center rounded-lg bg-no-repeat bg-contain lg:bg-cover object-cover">
+                        <div
+                            class="absolute lg:bottom-2 transform -translate-y-1/2 lg:left-12 lg:right-5 hidden lg:block">
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3"
+                        class="carousel-item relative w-full bg-[url(./images/3.png)] h-[80vh] flex items-center justify-center rounded-lg bg-no-repeat bg-contain lg:bg-cover object-cover">
+                        <div
+                            class="absolute lg:bottom-2 transform -translate-y-1/2 lg:left-12 lg:right-5 hidden lg:block">
+
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="bg-black p-8 rounded-lg lg:w-[550px] lg:absolute lg:right-60 lg:bottom-20 ">
+                    <h1 class="text-white lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h1>
+                    <p class="text-zinc-400 lg:w-2/3">Discover hockey's true stars! Meet the heroes of the field,
+                        showcasing skill, passion, and determination in every thrilling match.</p>
+                </div>
+        </section>
+        <!-- banner section end here  VGhpcyBjb2RlIHdyaXR0ZW4gYnkgQWJoaWppdCBEYXMgKGNoYW5jaGFsKQ==-->
+
+    </header>
+    
+</body>
+
+</html>
